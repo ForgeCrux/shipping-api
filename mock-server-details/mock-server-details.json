@@ -1,0 +1,56 @@
+{
+  "microserviceId" : "6a7f057a5b14632584804d68",
+  "mocks" : [ {
+    "id" : "1c054d45-2bb6-440e-938c-e80be9df2364",
+    "microserviceId" : "6a7f057a5b14632584804d68",
+    "specMetadataId" : "6a7f0592e3a11656ce535988",
+    "apiSpecName" : "Shipping API",
+    "name" : "mock-shipping-api",
+    "mockServiceName" : "mock-shipping-api",
+    "mockServerUrl" : "https://forgesphere.probestack.io/mock-api/v1/api/mocks/mock-7705b297",
+    "responseLatencyMs" : 0,
+    "mockUrl" : "mock-7705b297",
+    "isPrivate" : true,
+    "delayMs" : 0,
+    "requestCount" : 2,
+    "createdAt" : "2026-08-14T12:10:09.209Z",
+    "updatedAt" : "2026-08-14T12:10:13.284Z",
+    "endpoints" : [ {
+      "id" : "e421eef1-c01a-45ac-877c-38e7b568a41e",
+      "mockId" : "1c054d45-2bb6-440e-938c-e80be9df2364",
+      "path" : "/shipping/v1/shipments",
+      "method" : "GET",
+      "responseStatus" : 200,
+      "responseHeaders" : {
+        "Content-Type" : "application/json"
+      },
+      "responseBody" : "{}",
+      "delayMs" : 0,
+      "isActive" : true,
+      "requestBodySample" : null,
+      "validationMode" : "NONE",
+      "validationSchema" : null,
+      "validateMethod" : true,
+      "createdAt" : "2026-08-14T12:10:09.230Z",
+      "updatedAt" : "2026-08-14T12:10:09.231Z"
+    }, {
+      "id" : "bc1bcdc9-7aa1-4ee9-a639-b04f441009f5",
+      "mockId" : "1c054d45-2bb6-440e-938c-e80be9df2364",
+      "path" : "/shipping/v1/shipments",
+      "method" : "POST",
+      "responseStatus" : 201,
+      "responseHeaders" : {
+        "Content-Type" : "application/json"
+      },
+      "responseBody" : "{}",
+      "delayMs" : 0,
+      "isActive" : true,
+      "requestBodySample" : null,
+      "validationMode" : "NONE",
+      "validationSchema" : null,
+      "validateMethod" : true,
+      "createdAt" : "2026-08-14T12:10:09.239Z",
+      "updatedAt" : "2026-08-14T12:10:09.240Z"
+    } ]
+  } ]
+}

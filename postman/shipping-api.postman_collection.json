@@ -1,0 +1,52 @@
+{
+  "info" : {
+    "name" : "shipping-api Postman Collection",
+    "description" : "Generated from an OpenAPI specification.\n\nOpenAPI version: 1.0.0",
+    "schema" : "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "auth" : {
+    "type" : "bearer",
+    "bearer" : [ {
+      "key" : "token",
+      "value" : "{{accessToken}}",
+      "type" : "string"
+    } ]
+  },
+  "variable" : [ {
+    "key" : "baseUrl",
+    "value" : "https://api.example.com",
+    "type" : "string",
+    "description" : "Override with the base URL of the deployed Apigee proxy."
+  }, {
+    "key" : "accessToken",
+    "value" : "",
+    "type" : "string"
+  } ],
+  "item" : [ {
+    "name" : "getshipping-v1-shipments",
+    "request" : {
+      "method" : "GET",
+      "description" : "Responses:\n- 200: OK",
+      "header" : [ ],
+      "url" : {
+        "raw" : "{{baseUrl}}/shipping/v1/shipments",
+        "host" : [ "{{baseUrl}}" ],
+        "path" : [ "shipping", "v1", "shipments" ]
+      }
+    },
+    "response" : [ ]
+  }, {
+    "name" : "postshipping-v1-shipments",
+    "request" : {
+      "method" : "POST",
+      "description" : "Responses:\n- 201: Created",
+      "header" : [ ],
+      "url" : {
+        "raw" : "{{baseUrl}}/shipping/v1/shipments",
+        "host" : [ "{{baseUrl}}" ],
+        "path" : [ "shipping", "v1", "shipments" ]
+      }
+    },
+    "response" : [ ]
+  } ]
+}
